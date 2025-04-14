@@ -338,3 +338,63 @@ aside_content .card-info .author-info__description {
 ::-webkit-scrollbar-track {
     background-color: transparent
 }
+
+/* 文章列表样式 */
+.post-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.post-card {
+    display: block;
+    padding: 1.5rem;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.1);
+    transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255,255,255,0.15);
+}
+
+.post-card h3 {
+    margin: 0 0 0.5rem;
+    color: #fff;
+}
+
+.post-card p {
+    color: #aaa;
+    margin: 0.5rem 0 0;
+    line-height: 1.6;
+}
+
+/* 后加的 */
+/* 文章页样式 */
+.post-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.post-header .post-title {
+    font-size: 2.2rem;
+    margin: 0 0 1rem;
+}
+
+.post-content {
+    line-height: 1.8;
+    font-size: 1.1rem;
+}
+
+.post-content img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 1.5rem 0;
+}
+
+.related-posts {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <!-- 保持与index.html相同的meta和样式引用 -->
+    <meta charset="UTF-8">
+    <title>文章标题 - Rdany's Blog</title>
+    <meta name="description" content="文章描述">
+    <meta name="keywords" content="关键词1, 关键词2">
+    <link rel="stylesheet" href="../index.css">
+    <!-- 其他head内容与index.html一致 -->
+</head>
+
+<body>
+    <div id="body-wrap">
+        <nav class="not_index_bg" id="nav">
+            <!-- 导航栏添加返回链接 -->
+            <div id="page_site-info">
+                <a href="../index.html" class="home-link">← 返回首页</a>
+                <div id="site-title">
+                    <span class="blogtitle">文章标题</span>
+                </div>
+            </div>
+        </nav>
+
+        <main id="content-outer">
+            <div class="layout_page">
+                <article id="page">
+                    <div class="article-container">
+                        <!-- 文章头部 -->
+                        <div class="post-header">
+                            <h1 class="post-title">Spring Security微服务实践</h1>
+                            <div class="post-meta">
+                                <span><i class="fa fa-user"></i> Rdany</span>
+                                <span><i class="fa fa-clock-o"></i> 2024-03-20</span>
+                                <span><i class="fa fa-folder"></i> 网络安全</span>
+                                <span><i class="fa fa-eye"></i> 256次阅读</span>
+                            </div>
+                        </div>
+
+                        <!-- 文章内容 -->
+                        <div class="post-content">
+                            <!-- 内容部分参考之前的文章结构 -->
+                            <h2>核心架构设计</h2>
+                            <p>具体内容...</p>
+                            
+                            <!-- 代码块示例 -->
+                            <pre><code class="language-java">@Configuration
+public class SecurityConfig extends WebSecurityConfigurerAdapter {
+    // 配置内容
+}</code></pre>
+
+                            <!-- 相关文章链接 -->
+                            <div class="related-posts">
+                                <h3>相关文章</h3>
+                                <ul>
+                                    <li><a href="./oauth2-guide.html">OAuth2.0 实战指南</a></li>
+                                    <li><a href="./microservice-auth.html">微服务鉴权设计模式</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </main>
+
+        <!-- 保持与index.html相同的footer -->
+    </div>
+
+    <!-- 保持与index.html相同的脚本引用 -->
+    <script src="../index.js"></script>
+</body>
+</html>
